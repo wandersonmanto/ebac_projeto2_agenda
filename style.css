@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  width: 100%;
+  max-width: 860px;
+  padding-top: 100px;
+  margin: 0 auto;
+
+}
+
+#header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #54989b;
+}
+
+#header-title img {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+#form-contato {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+  
+}
+
+#form-contato input {
+  height: 40px;
+  width: 360px;
+  padding: 2px 8px;
+  margin: 2px auto 20px auto;
+
+  font-size: 18px;
+
+  border-radius: 10px;
+  border: 2px solid #54989b;
+  
+}
+
+#form-contato label {
+  width: 360px;
+  margin-right: 2px auto;
+
+  color: rgb(0, 95, 154);
+  font-weight: bold;
+  
+}
+
+#btn-adicionar {
+  padding: 12px 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  background-color: #54989b;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+  border: none;
+  border-radius: 10px;
+
+}
+
+table {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  
+}
+
+table tr {
+  align-items: center;
+
+}
+
+th:first-child {
+  width: 500px;
+
+}
+
+table th {
+  padding: 6px 10px;
+  font-size: 18px;
+  background-color: rgb(0, 138, 224);
+  color: white;
+  border-radius: 10px;
+  
+}
+
+table td {
+  padding: 5px;
+  text-align: center;
+
+  font-size: 16px;
+}
