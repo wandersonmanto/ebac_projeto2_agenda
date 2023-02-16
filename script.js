@@ -33,4 +33,5 @@ function handleNewContato() {
 function atualizarTabela() {
   const corpoTabela = document.querySelector('tbody');
   corpoTabela.innerHTML = linhas;
+  alert("MENSSAGEM\nContato cadastrado com sucesso!")
 }
